@@ -68,3 +68,7 @@ body{
     color: #E5E7EB;
     margin-top: 8px;
 }
+
+.content{
+    display: flex;
+}
