@@ -81,9 +81,78 @@ body{
     justify-content: center;
     text-align: center;
     gap: 60px;
+    margin-bottom: 48px;
 }
 
 .content .child p{
     width: 150px;
     text-align: center;
+}
+
+.quote{
+    background: #E5E7EB;
+    padding: 48px;
+}
+
+.quote .quote-text{
+    /* text-align:left; */
+    width: 700px;
+    margin: 0 auto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote .quote-author{
+    width: 700px;
+    text-align: end;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 700px;
+    background: #3882F6;
+    margin: 50px auto;
+    padding: 16px 56px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-weight: lighter;
+}
+
+.signup-text > p:first-child{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.signup-text .child2{
+    margin-top: 0;
+}
+
+.signup-button{
+    align-self: center;
+}
+
+.signup-button button{
+    background: #3882F6;
+    border-radius: 5px;
+    padding: 5px 18px;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    border-style: solid;
+}
+
+.footer{
+    text-align: center;
+    background: #1F2937;
+    color: #F9FAF8;
+    padding: 8px 0px;
+    font-size: 18px;
+    font-weight: lighter;
 }
